@@ -19,7 +19,7 @@ int main() {
 
         printf("File created successfully: %s (File Descriptor: %d)\n", file_name, file_descriptor);
 
-        close(file_descriptor);
+     //   close(file_descriptor);
     }
     
     while (1) {
