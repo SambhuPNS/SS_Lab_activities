@@ -1,4 +1,13 @@
-//12. Write a program to find out the opening mode of a file. Use fcntl.
+/*
+
+============================================================================
+Name : 12.c
+Author : Sambhu S S
+Description : Write a program to find out the opening mode of a file. Use fcntl
+Date: 25th Aug, 2023.
+============================================================================
+
+*/
 
 #include<stdio.h>
 #include<unistd.h>
