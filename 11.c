@@ -2,7 +2,7 @@
 ============================================================================
 Name : 11.c
 Author : Sambhu S S
-Description : Description : Write a program to open a file, duplicate the file descriptor and append the file with both the
+Description :Write a program to open a file, duplicate the file descriptor and append the file with both the
 descriptors and check whether the file is updated properly or not.
 Date: 25th Aug, 2023.
 ============================================================================
