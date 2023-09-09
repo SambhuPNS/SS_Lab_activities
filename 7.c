@@ -32,7 +32,7 @@ int main(int argc, char *argv[]) {
     int  num_read;
 
     while ((num_read = read(source_fd, buffer, BUFFER_SIZE)) > 0) {
-        write(dest_fd, buffer, num_read) != num_read; 
+        write(dest_fd, buffer, num_read); 
           
     }
 
