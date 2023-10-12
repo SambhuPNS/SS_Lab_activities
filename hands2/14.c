@@ -9,7 +9,7 @@ int main()
 	pipe(fd);	//create pipe
 
 	//write to the pipe
-	write(fd[1], "Hi Sambhu", 10);
+	write(fd[1], "Hi Sambhu!", 10);
 
 	//read from the pipe
 	read(fd[0], buf, sizeof(buf));
