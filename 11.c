@@ -1,3 +1,15 @@
+
+/*
+============================================================================
+Name : 11.c
+Author : Sambhu S S
+Description :Write a program to open a file, duplicate the file descriptor and append the file with both the
+descriptors and check whether the file is updated properly or not.
+Date: 25th Aug, 2023.
+============================================================================
+*/
+
+
 #include<unistd.h>
 #include<stdio.h>
 #include<fcntl.h>

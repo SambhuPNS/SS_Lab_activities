@@ -30,4 +30,4 @@ int main(){
 
 // 10.c
 // od -c seekfile.txt
-//  Can be used to  
+

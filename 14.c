@@ -1,7 +1,15 @@
-//14 Write a program to find the type of a file.
-//a. Input should be taken from command line.
-//b. program should be able to identify any type of a file.
+/*
 
+============================================================================
+Name : 14.c
+Author : Sambhu S S
+Description : Write a program to find the type of a file.
+		a. Input should be taken from command line.
+		b. program should be able to identify any type of a file
+Date: 25th Aug, 2023.
+============================================================================
+
+*/
 #include <sys/types.h>
 #include<sys/stat.h>
 #include<fcntl.h>
@@ -26,7 +34,7 @@ int main(int argc, char* argv[]){
 		exit(EXIT_FAILURE);
 	}
 
-	printf("File type:                      ");
+	printf("File type: ");
 
 	switch( sb.st_mode & S_IFMT) {
 		case S_IFBLK: printf("block device\n"); 
